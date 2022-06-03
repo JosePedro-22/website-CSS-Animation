@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Website Animation</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <div class="cursor cursor-circle"></div>
+        <div class="cursor cursor-point"></div>
+
+        <main>
+            <nav class="hide">
+                <img src="./img/rub-removebg-preview.png" class="signature getHover">
+                <ul>
+                    <li class="nav-link getHover">
+                        <a href="#" >Work<i class='bx bx-chevron-down'></i></a>
+                    </li>
+                    <li class="nav-link getHover">
+                        <a href="#" >About<i class='bx bx-chevron-down'></i></a>
+                    </li>
+                    <li class="nav-link getHover">
+                        <a href="#" >Contact<i class='bx bx-chevron-down'></i></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="image-wrap getHover"></div>
+            <h1 class="big-name getHover">José<br><span>Pedro</span></h1>  
+            <span class="scroll hide">Scroll Down</span>
+            <span class="line hide"></span>
+            <div class="bottom-section hide">
+                <p>
+                    <i class='bx bx-map getHover' ></i> Location in Brazil
+                </p>
+                <ul class="social-media">
+                    <li>
+                        <a href="#" class="getHover">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="getHover">
+                            <i class='bx bxl-linkedin-square' ></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="getHover">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        
+        <!--Javascript Files-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+        ></script>
+        <script src="app.js"
+        ></script>
+    </body>
+</html>
